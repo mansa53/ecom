@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{background-image: url("images/dd.png");
+  background-color: lavender;
+    }
+
+.main{
+
+  margin:auto;
+  
+  
+
+
+
+}
+
+.header{
+	/*width: 2000px;*/
+	
+	/*background-image: url("images/download.jpg");*/
+	background-repeat:repeat;
+	
+	height:100px;
+	margin: auto;
+	
+	font-size:40px;
+	
+	float:center;
+}
+
+#logo{float:left;
+      }
+#banner{float:center;
+        /* width:1000px;*/
+				 height:150px;
+			  }
+
+.content{
+	width:1000px;
+	height:600px;
+	
+}
+
+#con{
+	/*width:800px;*/
+/*height:auto*/
+	
+	width:800px;
+	float: right;
+	
+
+}
+
+#sidebar{
+	width:200px;
+	line-height: 50px;
+	margin-left:0px;
+	background-color: #020426;
+	float: left;
+}
+
+.menubar{
+   /*width: 1000px;*/
+	 height:auto;
+	 background-color: rgb(3, 26, 46);
+	 color:white;
+
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+	float:center;
+}
+
+#menu li{
+
+	 list-style: none;
+	 display: inline-block;
+	 font-size:22px;
+
+}
+
+#menu a{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: none;
+	padding: 10px;
+	line-height:10px;
+	margin: 10px;
+	font-family: georgia serif;
+	color: white
+}
+
+#menu a:hover{
+	
+    text-decoration: none;
+	   font-weight: bolder;
+	}
+	  
+
+#form{
+	float:right;
+	padding-right:8px;
+	line-height: 60px;
+
+}
+
+#category_title{
+	background:transparent;
+	font-size:25px;
+	color:black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border:20px;
+	border-bottom-color:white;
+	height: auto;
+	padding-bottom:4px;
+	background:white;
+	}
+	
+#cat{
+padding:0px;
+}
+ #cat li{
+list-style:none;
+ display: block;
+ }
+#cat a{
+padding:2px;
+color:white;
+font-family:Aerial;
+font-size:20px;
+text-align:left;
+text-decoration:none;
+
+}
+#cat a:hover{color:white;
+text-decoration:underline;
+font-weight:bold;
+}	
+
+.form
+{
+	width: 200px;
+
+}
+#products_box{
+	width:780px;
+	text-align: center;
+	/*margin-left: 30px;*/
+/*	margin-bottom: 10px;*/
+	
+}
+#single_product
+{
+	float: left;
+	
+	padding: 10px;
+}
+
+.footer{
+	text-align:center;
+  padding-top:50px;
+   height: 500x;
+	background: gray;
+	
+}
+#cart
+{
+	width: 800px;
+	height:50px;
+	
+	background-repeat: repeat;
+	font-family: 'Courier New', Courier, monospace;
+	float:right;
+	
+}
